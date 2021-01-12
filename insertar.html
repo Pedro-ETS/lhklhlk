@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Ingresa Datos</h2>
+    <form action="guardar.php" name= f1 action method = "POST">
+        <table>
+            <tr><td>Matricula:</td><td><input type="text" name="id" required></td></tr>
+            <tr><td>Nombre:</td><td><input type="text" name="nombre" required></td></tr>
+            <tr><td>Apellidos:</td><td><input type="text" name="apellidos" required></td></tr>
+            <tr><td>Edad:</td><td><input type="text" name="edad" required></td></tr>
+            <tr><td>Puesto:</td><td><input type="text" name="puesto" required></td></tr>
+            <tr><td><input type="submit" value="Guardar"></td></tr>
+        </table>
+    </form>
+
+    <h3>Eliminar</h3>
+     <form action="eliminar.php" method="post">
+       Matricula<input type="text" name="txtIdEliminar" id="txtNcontrol">
+        <input type="submit" value="Eliminar">
+     </form>
+     <h5>Ingrese la matricula del alumno que deseas eliminar</h5>
+</body>
+</html>
